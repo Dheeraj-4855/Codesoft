@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- icon link -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images\whitelogo.png" alt="Reloading" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="uil uil-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="uil uil-list-ui-alt" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-content">
+                <!-- entered by me -->
+                <div class="header-text">
+                    <h4>Web Developer</h4><br>
+                    <h1>Hi, I'm <span>Dheeraj</span> <br> Yadav From India</h1>
+                </div>
+                <div class="header-image" >
+                    <img src="images/My2.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- -------About-------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/My2.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a student currently working to gain skills in the wen=b development and web Designing a little bit. I am learnign to code using the languages like C,C++,Java and Python.
+                        I am  learning  to solve problems using coding of the real world . I hope to continue in the upcoming days to enhance nmy skills.
+                        <!-- perspiciatis libero ipsam aspernatur minima, corporis quos eum eveniet animi, dignissimos
+                        possimus id exercitationem omnis praesentium suscipit ipsum eaque facilis veritatis a? Dolorum
+                        nulla numquam laborum modi! Lorem ipsum dolor sit amet consectetur adipisicing elit.  -->
+                    </p>
+
+                    <!-- links section in about -->
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                      
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Html,
+                                Css,Javascript,NodeJs,MySql
+                            </span><br>Designing Web/App interfaces</li>
+                            <li><span>WEb Developer</span><br> Web App Development</li>
+                            <li><span>Problem  Solving(C++,C,Java)</span><br>Building habit and skill to solve problemss</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="tab-contents" id="experience">
+
+                        <ul>
+                            <li><span>2023-currnet</span><br>Internship At Codesoft.</li>
+
+                            <li><span>2021-Current</span><br>Learning And Working to become Web app deveoper at MMMUT</li>
+
+                            <li><span>2022-Current</span><br> Problem Solving  at different Coding Sites</li>
+                            <!-- <li><span>2020-2021</span><br> Team lead at StarApp LLC.</li> -->
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023</span><br>Web development training at codesoft</li>
+                            <li><span>2021-current</span><br> Computer Science Engineering, MMMUT</li>
+                            <li><span>2020</span><br>Intermediate From Secondary School</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------Services  section----- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="uil uil-arrow"></i>
+                    <h2>Web development</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit vero modi, asperiores saepe
+                        consequatur dolorem nihil qui est soluta magnam nostrum iusto totam debitis quaerat eaque.
+                        Voluptatibus aspernatur veritatis odit.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="uil uil-crop-alt"></i>
+                    <h2>Web Designing(UI/UX)</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit vero modi, asperiores saepe
+                        consequatur dolorem nihil qui est soluta magnam nostrum iusto totam debitis quaerat eaque.
+                        Voluptatibus aspernatur veritatis odit.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="uil uil-apps"></i>
+                    <h2>Problem Solving</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit vero modi, asperiores saepe
+                        consequatur dolorem nihil qui est soluta magnam nostrum iusto totam debitis quaerat eaque.
+                        Voluptatibus aspernatur veritatis odit.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- =-====Portfolio or work===== -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title"> My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" alt="">
+                    <div class="layer">
+                        <h3>Restaurant Website</h3>
+                        <p>The site gives you inforamtion about a restaurant.Check the frontend website.</p>
+                        <a href="#"><i class="uil uil-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Travel Website</h3>
+                        <p>The site gives you inforamtion about places to visit.Check the frontend website.</p>
+                        <a href="#"><i class="uil uil-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="">
+                    <div class="layer">
+                        <h3>Landing Page</h3>
+                        <p>The site gives you inforamtion about eduaction website to study for different courses.Check the frontend website.</p>
+                        <a href="#"><i class="uil uil-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+
+    <!-- ----------contact form------copyright -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> <i class="uil uil-message"></i>dhirajkyadav2002@gmail.com</p>
+                    <p><i class="uil uil-phone-alt"></i>+91 1232345678</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/"><i class="uil uil-facebook"></i></a>
+                        <a href="https://linkedin.com/"><i class="uil uil-linkedin"></i></a><a href="https://twitter.com/"><i class="uil uil-twitter"></i></a><a href="https://instagram.com/"><i class="uil uil-instagram-alt"></i></a>
+                    </div>
+                    <a href="images/my-cv.pdf" class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form action="" name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" 
+                        name="Email" placeholder="Your email" required>
+                        <textarea name="Message" placeholder="Your Message"></textarea>
+                        <button tabindex="submit" class="btn btn2" >Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &#169;Dheeraj, Made with <i class="uil uil-heart"></i>  By Dheeraj Yadav</p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName('tab-links');
+        var tabcontents = document.getElementsByClassName('tab-contents');
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyR09M2zJcvsH5v2-QJbH40pT-Sb9p6lcwIth2GaDM_jjFotwC82LM3cPT-0gld51XRxg/exec'
+        const form = document.forms['submit-to-google-sheet']
+
+        const msg=document.getElementById("msg");
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response =>{ msg.innerHTML = "Message sent successfully!!"
+        setTimeout(function(){
+            msg.innerHTML=''
+        },5000)
+         form.reset()
+    })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+      
+      </script>
+</body>
+
+</html>
