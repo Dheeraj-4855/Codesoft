@@ -15,32 +15,6 @@
     <header class="header" id="Up">
         <nav class="navbar">
             <div class="container  navbar-container">
-                <!-- <div class="container flex-box navbar-container"> -->
-                <!-- <div class="logo">
-                    <img src="./img/logo.png.webp" alt="" class="logo-img">
-                </div> -->
-                <!-- <div class="menu-box"> -->
-                    <!-- center -->
-                    <!-- <ul class="menu-items">
-                        <li class="menu-item"><a href="./index.html">Home</a></li>
-                        <li class="menu-item"><a href="#about">About</a></li>
-                        <li class="menu-item"><a href="#courses">Courses</a></li>
-                        <li class="menu-item drop-box"><button class="dropdown">pages <i class="fa fa-caret-down"
-                                    aria-hidden="true"></i></button>
-                            <div class="drop-content">
-                                <a href="#element">Elements</a>
-                            </div>
-                        </li>
-                        <li class="menu-item drop-box"><button class="dropdown">Blog <i class="fa fa-caret-down"
-                                    aria-hidden="true"></i></button>
-                            <div class="drop-content">
-                                <a href="#faclt">Blogs</a>
-                                <a href="#faclt">Pages</a>
-                            </div>
-                        </li>
-                        <li class="menu-item"><a href="#cont">Contact</a></li>
-                    </ul> -->
-                <!-- </div> -->
                 <input type="checkbox">
                 <div class="hamburger-lines">
                     <span class="line line1"></span>
@@ -193,7 +167,7 @@
 
 
 
-    <!--  -->
+ 
     <section class="features-section" id="element">
         <div class="heading">
             <p class="headings">Features That Make Us Hero</p>
@@ -280,7 +254,7 @@
     </section>
 
 
-    <!-- 333333333333333333333333333333 -->
+   
     <section class="facluties" id="faclt">
         <div class="faculty">
             <div class="heading">
@@ -455,27 +429,26 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script>
         $(document).ready(function () {
-            // Add smooth scrolling to all links
+
             $("a").on('click', function (event) {
 
-                // Make sure this.hash has a value before overriding default behavior
+               
                 if (this.hash !== "") {
-                    // Prevent default anchor click behavior
+           
                     event.preventDefault();
 
-                    // Store hash
+           
                     var hash = this.hash;
 
-                    // Using jQuery's animate() method to add smooth page scroll
-                    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+
                     $('html, body').animate({
                         scrollTop: $(hash).offset().top
                     }, 800, function () {
 
-                        // Add hash (#) to URL when done scrolling (default click behavior)
+                       
                         window.location.hash = hash;
                     });
-                } // End if
+                } 
             });
         });
     </script>
