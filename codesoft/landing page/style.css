@@ -1,11 +1,9 @@
 body{
     scroll-behavior: smooth;
-    /* border: 2px solid red; */
 }
 
 html{
     scroll-behavior: smooth;
-    /* overflow: hidden; */
 }
 
 .center{
@@ -23,7 +21,6 @@ html{
     --text-inverse: #333;
     --background: #2c2b2b;
 
-    /* border: 3px solid red; */
     position: fixed;
     top: 0;
     left: 0;
@@ -42,7 +39,6 @@ html{
 
 .move{
     transform: translate(0px,-900px);
-    /* border: 2px solid green; */
     transition: all 3s ease-in-out ;
 }
 .up{
@@ -62,11 +58,8 @@ html{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    /* height: 47.117vw; */
-    /* height: 100%; */
+
     width: 100%;
-    /* border: 2px solid rgb(0, 255, 72); */
-    /* overflow: hidden; */
 
     position: relative;
 }
@@ -76,35 +69,29 @@ html{
     margin: 0 auto  auto;
     width: 90%;
     padding: 2rem;
-    /* border: 2px solid green; */
+
 }
 .header .container{
     max-width: 1200px;
     margin: 0 auto  auto;
     width: 90%;
     padding: .51rem;
-    /* border: 2px solid green; */
+
 }
 .flex-box{
     text-align: center;
     display: flex;
-    /* flex-direction: row; */
-    /* justify-content: space-around; */
+
     justify-content: space-between;
     align-items: center;
-    /* align-content: center; */
-    /* border: 2px solid black; */
+
 }
 
-/* .menu-box .menu-items{ */
+
 .menu-items{
-    /* width: 100%; */
-    /* height: 100%; */
-    /* margin-left: 5rem; */
-    /* border: 2px solid red; */
-    /* padding-left: 5rem; */
+
 }
-/* .menu-box .center{ */
+
 
 /* .menu-box .menu-items li{ */
  .menu-items li{
@@ -172,14 +159,12 @@ button:hover{
     /* border: 2px solid red; */
     margin: auto;
     margin-top: 15rem;
-    /* line-height: 2rem; */
-    /* border: 2px solid rgb(255, 0, 204); */
+
     overflow: hidden;
 
 }
 .header-content .main-heading{
-    /* text-align: center; */
-    /* padding: 3rem; */
+
     font-weight: 600;
     font-size: 4.5rem;
 }
@@ -203,17 +188,9 @@ button:hover{
 }
 .search-box{
     position: relative;
-    /* justify-content: center; */
-    /* align-items: center; */
-    /* border: 2px solid rgb(242, 241, 241); */
 
 }
 
-/* .header-content .search-box::after{
-    content: '';
-    clear: both;
-    display: block;
-} */
 .header-content .searchbtn:hover{
     background:  linear-gradient(rgb(79, 216, 231),rgb(65, 170, 235));
     color: #000;
@@ -239,8 +216,7 @@ button:hover{
 }
 .courses-list{
     margin: 3rem 0 0 0;
-    /* border: 2px solid green; */
-    /* border: 2px solid blue; */
+
 }
 .courses-list .heading{
     padding: 0.3rem;
@@ -306,15 +282,7 @@ button:hover{
 .course-about{
     /* border: 2px solid blue; */
     margin-right: 10rem;
-    
-    /* text-align: center; */
-    /* align-items: center ; */
 
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* justify-content: center; */
-    /* align-items: center ; */
-    /* align-content: center; */
     line-height: 2.1rem;
     
 }
@@ -357,8 +325,7 @@ button:hover{
 /* ################################################# */
 .courses{
     background: rgb(228, 243, 251);
-    /* border: 2px solid red; */
-    /* padding: 5rem; */
+
 }
 .courses .container{
     /* margin-bottom: rem; */
